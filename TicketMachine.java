@@ -9,7 +9,7 @@
  * @author David J. Barnes and Michael Kolling
  * @version 2008.03.30
  */
-public class TicketMachine
+class TicketMachine
 {
     // The price of a ticket from this machine.
     private Integer price;
@@ -25,6 +25,12 @@ public class TicketMachine
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
+    
+    public class Student{}
+    
+    public class LabClass{}
+    
+    
     public TicketMachine(Integer ticketCost)
     {
         price = ticketCost;
